@@ -3,211 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Exclusão de Dados - Orçamentos Fácil</title>
+  <meta name="description" content="Instruções oficiais para exclusão de dados e revogação de acessos do Orçamentos Fácil.">
+  <title>Exclusão de Dados — Orçamentos Fácil</title>
   <style>
-    :root {
-      color-scheme: light;
-      --bg: #f5f8fc;
-      --paper: #ffffff;
-      --text: #172033;
-      --muted: #5d6b82;
-      --blue: #0b63ce;
-      --blue-dark: #084a9a;
-      --border: #d9e3f2;
-      --soft-blue: #eaf3ff;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.65;
-      color: var(--text);
-      background: var(--bg);
-    }
-
-    main {
-      width: min(100% - 32px, 860px);
-      margin: 0 auto;
-      padding: 32px 0 56px;
-    }
-
-    article {
-      background: var(--paper);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: clamp(24px, 5vw, 48px);
-      box-shadow: 0 10px 28px rgba(23, 32, 51, 0.08);
-    }
-
-    header {
-      padding-bottom: 20px;
-      margin-bottom: 28px;
-      border-bottom: 1px solid var(--border);
-    }
-
-    h1,
-    h2 {
-      color: var(--blue-dark);
-      line-height: 1.25;
-    }
-
-    h1 {
-      margin: 0 0 12px;
-      font-size: clamp(2rem, 5vw, 3rem);
-    }
-
-    h2 {
-      margin: 32px 0 10px;
-      font-size: clamp(1.25rem, 3vw, 1.55rem);
-    }
-
-    p,
-    ol {
-      margin: 0 0 16px;
-    }
-
-    ol {
-      padding-left: 22px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    a {
-      color: var(--blue);
-      font-weight: 700;
-      overflow-wrap: anywhere;
-    }
-
-    .summary {
-      padding: 16px 18px;
-      background: var(--soft-blue);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-    }
-
-    .muted {
-      color: var(--muted);
-    }
-
-    .back-link {
-      display: inline-block;
-      margin-bottom: 16px;
-      color: var(--blue);
-      text-decoration: none;
-      font-weight: 700;
-    }
-
-    .back-link:hover,
-    .back-link:focus {
-      color: var(--blue-dark);
-      text-decoration: underline;
-    }
-
-    @media (max-width: 520px) {
-      main {
-        width: min(100% - 20px, 860px);
-        padding-top: 18px;
-      }
-
-      article {
-        padding: 22px 18px;
-      }
-    }
+    :root{color-scheme:light;--bg:#f3f7fc;--paper:#fff;--text:#172033;--muted:#5d6b82;--blue:#0b63ce;--blue2:#084a9a;--border:#d9e3f2;--soft:#eaf3ff}
+    *{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;line-height:1.68;color:var(--text);background:var(--bg)}main{width:min(100% - 32px,900px);margin:0 auto;padding:30px 0 60px}article{background:var(--paper);border:1px solid var(--border);border-radius:16px;padding:clamp(24px,5vw,48px);box-shadow:0 12px 32px rgba(23,32,51,.07)}header{padding-bottom:22px;margin-bottom:24px;border-bottom:1px solid var(--border)}h1,h2{color:var(--blue2);line-height:1.25}h1{margin:0 0 10px;font-size:clamp(2rem,5vw,3rem)}h2{margin:32px 0 10px;font-size:1.35rem}p,ol,ul{margin:0 0 16px}ol,ul{padding-left:22px}li{margin-bottom:8px}a{color:var(--blue);font-weight:700}.summary{padding:17px 19px;background:var(--soft);border:1px solid var(--border);border-radius:12px}.muted{color:var(--muted)}.back{display:inline-block;margin-bottom:15px;text-decoration:none;color:var(--blue);font-weight:700}@media(max-width:520px){main{width:min(100% - 20px,900px);padding-top:18px}article{padding:22px 18px}}
   </style>
 </head>
 <body>
-  <main>
-    <a class="back-link" href="index.html">Voltar</a>
-    <article>
-      <header>
-        <h1>Exclusão de Dados — Orçamentos Fácil</h1>
-        <p class="muted">Instruções para remoção de dados locais, acesso Google e backups.</p>
-        <p><strong>Data de vigência:</strong> 14 de maio de 2026</p>
-      </header>
+<main>
+  <a class="back" href="index.html">← Voltar</a>
+  <article>
+    <header>
+      <h1>Exclusão de Dados</h1>
+      <p class="muted">Orçamentos Fácil · remoção de dados locais e acessos Google</p>
+      <p><strong>Última atualização:</strong> 19 de agosto de 2026</p>
+    </header>
 
-      <section class="summary" aria-label="Resumo da exclusão de dados">
-        <p>
-          O Orçamentos Fácil não possui backend próprio. Os dados usados pelo app
-          podem ficar armazenados no dispositivo do usuário e, quando o usuário
-          ativa login ou backup, na própria conta Google/Drive do usuário.
-        </p>
-      </section>
+    <section class="summary">
+      <p>Os dados do Orçamentos Fácil podem estar no dispositivo e, conforme os recursos escolhidos, na Conta Google do usuário. Esta página explica como remover cada categoria de dados e revogar permissões.</p>
+    </section>
 
-      <h2>1. Onde os dados podem estar armazenados</h2>
-      <p>
-        O aplicativo é orientado ao uso local e não mantém servidor próprio para
-        armazenar contas ou dados pessoais. Dependendo das funcionalidades usadas,
-        os dados podem estar:
-      </p>
-      <ol>
-        <li>armazenados localmente no dispositivo Android;</li>
-        <li>salvos na conta Google/Drive do próprio usuário, quando login, backup ou recursos de nuvem forem ativados;</li>
-        <li>presentes em PDFs ou arquivos que o próprio usuário salvou ou compartilhou manualmente.</li>
-      </ol>
+    <h2>1. Apagar dados locais do Android</h2>
+    <p>Para remover os dados locais mantidos pelo aplicativo no aparelho:</p>
+    <p><strong>Android → Configurações → Apps → Orçamentos Fácil → Armazenamento → Limpar dados.</strong></p>
+    <p>O nome dos menus pode variar conforme fabricante e versão do Android. Essa ação é destrutiva para os dados locais e deve ser usada com cuidado.</p>
 
-      <h2>2. Como apagar dados locais no Android</h2>
-      <p>
-        Para apagar os dados locais mantidos pelo aplicativo no dispositivo,
-        siga este caminho no Android:
-      </p>
-      <p>
-        <strong>Android → Configurações → Apps → Orçamentos Fácil → Armazenamento → Limpar dados.</strong>
-      </p>
-      <p>
-        O nome exato dos menus pode variar conforme fabricante, versão do Android
-        ou personalização do sistema.
-      </p>
+    <h2>2. Desinstalar o aplicativo</h2>
+    <p>A desinstalação remove o aplicativo do dispositivo e normalmente remove seu armazenamento local. Dados previamente sincronizados com serviços Google podem continuar existindo na Conta Google até serem apagados separadamente.</p>
 
-      <h2>3. Como remover o acesso Google</h2>
-      <p>
-        Se você usou login Google ou concedeu permissões ao aplicativo, remova o
-        acesso pela sua Conta Google:
-      </p>
-      <p>
-        <strong>Conta Google → Segurança → Apps e serviços de terceiros → Orçamentos Fácil → Remover acesso.</strong>
-      </p>
-      <p>
-        Essa ação revoga o acesso do app à sua conta Google para usos futuros,
-        mas não apaga automaticamente arquivos que você tenha salvo no Google Drive.
-      </p>
+    <h2>3. Revogar acesso da Conta Google</h2>
+    <p>Se o usuário concedeu permissões ao Orçamentos Fácil, pode revogá-las na Conta Google:</p>
+    <p><strong>Conta Google → Segurança → Apps e serviços de terceiros → Orçamentos Fácil → Remover acesso.</strong></p>
+    <p>Revogar acesso impede novas operações autorizadas, mas não apaga automaticamente arquivos, pastas ou eventos já criados na Conta Google.</p>
 
-      <h2>4. Como apagar backups no Google Drive</h2>
-      <p>
-        Quando houver backups, arquivos ou dados associados ao Orçamentos Fácil
-        na sua conta Google Drive, remova esses itens diretamente na sua própria
-        conta Google Drive, quando disponível.
-      </p>
-      <p>
-        A gestão, localização e exclusão desses arquivos dependem da interface e
-        das configurações do Google Drive da própria conta do usuário.
-      </p>
+    <h2>4. Google Drive e Modo Equipe</h2>
+    <p>Backups e dados do Modo Equipe podem utilizar arquivos ou pastas do Google Drive. Quando esses itens estiverem visíveis no Drive, o usuário pode removê-los diretamente pela própria conta.</p>
+    <p>Em equipes compartilhadas, excluir ou remover acesso a uma pasta pode afetar outros integrantes. Proprietários e administradores devem revisar o impacto antes de excluir dados compartilhados.</p>
 
-      <h2>5. PDFs e compartilhamentos manuais</h2>
-      <p>
-        PDFs ou arquivos exportados e compartilhados manualmente pelo usuário
-        devem ser apagados nos locais em que foram salvos ou enviados, como
-        dispositivo, e-mail, mensageiros, armazenamento em nuvem ou destinatários.
-      </p>
+    <h2>5. Google Agenda</h2>
+    <p>Quando a integração Calendar estiver ativa, o Orçamentos Fácil pode criar uma agenda secundária própria, normalmente identificada como <strong>“Orçamentos Fácil — Nome da Empresa”</strong>.</p>
+    <p>O usuário pode remover eventos ou a própria agenda pelo Google Calendar. Revogar o acesso do aplicativo impede novas sincronizações, mas não exclui automaticamente os eventos que já existirem.</p>
 
-      <h2>6. Solicitar suporte</h2>
-      <p>
-        Para suporte relacionado à exclusão de dados, remoção de acesso ou dúvidas
-        sobre privacidade, entre em contato pelo e-mail:
-      </p>
-      <p>
-        <a href="mailto:suporte.orcamentosfacil@gmail.com">suporte.orcamentosfacil@gmail.com</a>
-      </p>
-    </article>
-  </main>
+    <h2>6. PDFs, imagens e arquivos compartilhados</h2>
+    <p>Arquivos exportados ou compartilhados manualmente precisam ser removidos dos locais em que foram salvos ou enviados, como dispositivo, e-mail, mensageiros, armazenamento em nuvem ou dispositivos de destinatários.</p>
+
+    <h2>7. Firebase Analytics</h2>
+    <p>O aplicativo utiliza Firebase Analytics para métricas de uso e qualidade. O Orçamentos Fácil não envia o endereço de e-mail bruto como identificador personalizado de Analytics. Dados analíticos pseudônimos seguem as configurações e políticas de retenção do Firebase/Google Analytics.</p>
+    <p>Para exercer direitos de privacidade ou solicitar orientação relacionada a dados vinculados ao aplicativo, entre em contato pelo e-mail abaixo.</p>
+
+    <h2>8. Assinatura Google Play</h2>
+    <p>Cancelar a assinatura não exige apagar os dados do aplicativo. Assinaturas devem ser gerenciadas na Google Play. A exclusão de dados locais ou revogação de permissões Google não cancela automaticamente uma assinatura ativa.</p>
+
+    <h2>9. Solicitação de suporte</h2>
+    <p>Para dúvidas sobre exclusão, privacidade ou revogação de acesso, entre em contato:</p>
+    <p><a href="mailto:rafaellimatecnologia@gmail.com">rafaellimatecnologia@gmail.com</a></p>
+  </article>
+</main>
 </body>
 </html>
